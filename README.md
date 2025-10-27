@@ -1,4 +1,4 @@
-Music Playlist Manager (C Project)
+**Music Playlist Manager (C Project)**
 
 A modular C-based playlist management system that allows users to create, manage, and store music playlists using doubly linked lists and file handling.
 This project demonstrates clean code structure, memory management, and practical implementation of data structures in C.
