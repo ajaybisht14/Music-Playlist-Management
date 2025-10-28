@@ -9,7 +9,7 @@ void searchSong() {
     fgets(song, 100, stdin);
     song[strcspn(song, "\n")] = '\0';
 
-    struct Playlist *p = (struct Playlist *)malloc (sizeof(struct Playlist));
+    struct Playlist *p = playlistHead;
     int found = 0;
 
     while (p != NULL) {
@@ -26,4 +26,5 @@ void searchSong() {
 
     if (!found)
         printf("Song not found.\n");
+
 }
