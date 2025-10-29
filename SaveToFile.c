@@ -7,7 +7,7 @@
 void saveToFile() {
     FILE *fp = fopen(FILENAME, "w");
     if (!fp) {
-        printf("Error opening file for saving.\n");
+        printf("Error opening file for saving. \n");
         return;
     }
 
@@ -24,3 +24,4 @@ void saveToFile() {
     }
     fclose(fp);
 }
+
